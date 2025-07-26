@@ -6,7 +6,7 @@ int main()
 	string line;
 	
 	ifstream infile("Inputs/Input_Macros.cpp");
-	ofstream outfile("Outputs/Expanded_Macros.cpp");
+	ofstream outfile("Outputs/Macros_Removed.cpp");
 	
 	unordered_map <string , string> macros;
 	vector<string> codeLines;
