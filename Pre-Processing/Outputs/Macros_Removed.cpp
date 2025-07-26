@@ -1,11 +1,9 @@
 #include <stdio.h>
-#define MAX 100
-#define SQUARE(x) ((x) * (x))
 
 int main(){
-    int arr[MAX];
-    for(int i = 0; i < MAX; i++) {
-        arr[i] = SQUARE(i);
+    int arr[100];
+    for(int i = 0; i < 100; i++) {
+        arr[i] = ((i) * (i));
     }
     
     for(int i = 0; i < 10; i++) {
