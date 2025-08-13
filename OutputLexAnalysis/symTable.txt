@@ -1,0 +1,5 @@
+main -> IDENTIFIER, -
+5 -> CONSTANT, 5
+9 -> CONSTANT, 9
+0 -> CONSTANT, 0
+10.5 -> CONSTANT, 10.5
